@@ -65,7 +65,7 @@ public class Main {
 }
 
 
-public class MyGenericClass <Thing extends Number>{ // esse extends number faz com que só aceite tipos q sao numeros
+public class MyGenericClass <Thing> extends Number>{ // esse extends number faz com que só aceite tipos q sao numeros
 
 	Thing x;
 	
